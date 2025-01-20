@@ -1,0 +1,164 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/*  */
+
+/* default canvas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* default canvas */
+/* nav */
+.ham {
+    display: none;
+}
+
+nav {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo>h1 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.inner {
+
+    display: flex;
+    gap: 32px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#li2 {
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+}
+
+#li3 {
+    color: rgb(5, 212, 223);
+    font-weight: 500;
+}
+
+#li4 {
+    color: rgb(93, 88, 239);
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+.btn_one {
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    background: rgb(254, 163, 1);
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    nav {
+        width: 390px;
+        padding-left: 5px;
+        
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(254, 163, 1);
+        margin-top: 10px;
+
+    }
+
+    .btn_one {
+        display: none;
+    }
+
+    .logo>h1 {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+
+    }
+
+    .inner {
+        display: none;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100px;
+    }
+
+    .outer:hover .inner {
+        display: block;
+        margin-left: -120px;
+    }
+
+    .outer {
+        cursor: pointer;
+        position: relative;
+        width: 50px;
+        height: 30px;
+        list-style: none;       
+        text-align: center;
+    }
+
+    .inner li {
+        padding: 5px 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        width: 120px;
+    }
+
+    .inner li:hover {
+        background-color: #fa0000;
+    }
+}
