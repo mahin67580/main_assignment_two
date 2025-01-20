@@ -87,10 +87,83 @@ li {
     background: rgb(254, 163, 1);
     border: none;
 }
+.btn_one:hover 
+{
+    background-color: white;
+    color:rgb(254, 163, 1) ;
+    border: 2px solid black;
+    font-size: 25px;
+    font-weight: 800;
+}
+/* banner style */
+.banner {
+    width: 1158.61px;
+    height: 575px;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.banner_txt {
+    
+    width: 640px;
+}
 
+.banner_txt>p {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 24px;
+}
 
+.banner_txt>h1 {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    color: rgb(254, 163, 1);
+}
 
+#blktxt {
+    color: rgb(17, 17, 17);
+}
+
+#blutxt {
+    color: rgb(1, 172, 253);
+}
+
+.banner_img {
+    
+}
+
+.banner_img>img {
+    width: 100%;
+}
+
+.btn_two {
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    background: rgb(17, 17, 17);
+    margin-top: 24px;
+}
+.btn_two:hover 
+{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
 
 
 
@@ -109,7 +182,6 @@ li {
     nav {
         width: 390px;
         padding-left: 5px;
-        
         padding-bottom: 15px;
         border-bottom: 1px solid rgb(254, 163, 1);
         margin-top: 10px;
@@ -147,7 +219,7 @@ li {
         position: relative;
         width: 50px;
         height: 30px;
-        list-style: none;       
+        list-style: none;
         text-align: center;
     }
 
@@ -159,6 +231,69 @@ li {
     }
 
     .inner li:hover {
-        background-color: #fa0000;
+        background-color: #000000;
     }
+
+    /* banner style */
+    .banner {
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 170px;
+        flex-direction: column-reverse;
+    }
+
+    .banner_img
+    {
+        text-align: center;
+        margin-right: 1.1px;
+    }
+    .banner_img>img {
+        width: 95%;
+    }
+    .banner_txt {
+        text-align: center;
+        width: 357px;
+    }
+
+    .banner_txt>p {
+        
+        margin-top: 18px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    
+    }
+    
+    .banner_txt>h1 {
+       
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-top: 20px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
