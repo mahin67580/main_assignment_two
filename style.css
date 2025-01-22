@@ -714,6 +714,7 @@ footer {
         border: none;
 
         background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%), url("assets/bg.png"), #ffffff;
+        background-position: 100% 100%;
     }
 
 
