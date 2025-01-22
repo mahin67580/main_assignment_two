@@ -188,7 +188,7 @@ li {
 
 }
 
-.standard>h1 {
+.standard>marquee>h1 {
 
     color: rgb(0, 0, 0);
     font-family: Quicksand;
@@ -284,7 +284,7 @@ li {
     border-radius: 30px;
     color: rgb(255, 255, 255);
     font-family: Font Awesome 5 Free;
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 900;
     line-height: 24px;
     background: rgb(254, 163, 1);
@@ -296,7 +296,7 @@ li {
 .arrow:hover {
     background-color: white;
     color: rgb(254, 163, 1);
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .arrowcontainer {
@@ -846,13 +846,16 @@ footer {
 
     }
 
-    .standard>h1 {
+    .standard>marquee>h1 {
         font-size: 26px;
         font-weight: 700;
         margin-top: 0px;
 
     }
-
+    marquee
+    {
+        width: 50%;
+    }
     /*  */
 
     .container_box>img {
